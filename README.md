@@ -1,32 +1,34 @@
 # Um-novo-dia-para-codar-
+
 1 - Estudantes
-Crie um programa onde o usuário possa cadastrar estudantes sem limites, e, em seguida, Se o usuário digitar "PARE" o programa deve exibir a quantidade de estudantes cadastrados e a lista com cada um deles.
+
+Crie um programa que permita cadastrar estudantes, sem limite de quantidade, em uma lista mutável. Quando o usuário digitar "PARE", exiba a quantidade de estudantes cadastrados e o nome de cada um deles.
 
 2 - Planetas
-Exiba uma lista de planetas do sistema solar ("Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno", "Urano", "Netuno" e "Plutão") para o usuário. Em seguida, peça ao usuário para digitar o nome de um planeta. Verifique se o planeta que o usuário informou está na lista e informe ao usuário.
 
-3 - Compras
-Vamos criar uma lista de compras.
+Crie uma lista mutável com os planetas do sistema solar ("Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno", "Urano", "Netuno" e "Plutão") e exiba-a ao usuário. Em seguida, peça que ele digite o nome de um planeta e informe se esse planeta está ou não na lista.
 
-Crie uma array de frutas, exiba-a ao usuário e, em seguida, peça ao usuário para digitar o nome de uma das frutas.
-Caso a fruta esteja no array, remova-a e exiba a mensagem "Fruta foi retirada da lista". Peça novamente para o usuário digitar o nome de uma fruta para ser removida.
-Sempre que o usuário procurar por uma fruta que não está no array exiba a mensagem "Fruta indisponível no nosso mercado".
-Quando o usuário digitar "PARE", exiba a lista de frutas restantes.
-Quando o array não possuir mais itens dentro de si, escreva "Lista de compras finalizada".
-4 - Agenda de Contatos (Exemplo pronto)
-Crie um programa que funcione como uma agenda de contatos.
+3 - Lista de compras
 
-O usuário pode cadastrar contatos informando nome e telefone (armazene como objetos em um array).
+Crie uma lista mutável de frutas, exiba-a ao usuário e peça que ele digite o nome de uma fruta para remover.
 
-O programa deve permitir que o usuário busque um contato pelo nome.
+Se a fruta estiver na lista, remova-a e exiba "Fruta foi retirada da lista".
+Se a fruta não estiver na lista, exiba "Fruta indisponível no nosso mercado".
+Depois de cada tentativa, peça um novo nome de fruta.
+Quando o usuário digitar "PARE", exiba as frutas restantes e encerre.
+Quando a lista ficar vazia, exiba "Lista de compras finalizada" e encerre.
 
-Se o contato existir, exiba o telefone; se não existir, exiba "Contato não encontrado".
+4 - Agenda de contatos
 
-O usuário também pode remover um contato pelo nome.
+Crie uma agenda de contatos que armazene objetos (nome e telefone) em uma lista mutável. O programa deve aceitar os seguintes comandos:
 
-Quando o usuário digitar "LISTAR", exiba todos os contatos cadastrados (nome e telefone).
+ADICIONAR: pede nome e telefone, cadastra o contato e exibe "Contato adicionado!".
+BUSCAR: pede o nome e exibe o telefone. Se o contato não existir, exibe "Contato não encontrado".
+REMOVER: pede o nome e remove o contato, exibindo "Contato removido!". Se o contato não existir, exibe "Contato não encontrado".
+LISTAR: exibe nome e telefone de todos os contatos. Se a agenda estiver vazia, exibe "Nenhum contato cadastrado.".
+SAIR: encerra o programa exibindo "Agenda encerrada. Total de contatos: X".
 
-Quando o usuário digitar "SAIR", encerre o programa exibindo a mensagem "Agenda encerrada. Total de contatos: X".
+Exemplo: 
 
 Digite um comando (ADICIONAR, BUSCAR, REMOVER, LISTAR, SAIR): ADICIONAR
 Nome: Ana
